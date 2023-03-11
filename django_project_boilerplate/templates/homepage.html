@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>Blooms Art Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="" type="image/x-icon" />
+<link rel="apple-touch-icon" href="">
+
+<!-- Bootstrap CSS -->
+
+<!-- Site CSS -->
+<style>
+	.nav-bar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: white;
+		height: 50px;
+		margin-bottom: 10px;
+	}
+
+	.nav-bar ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav-bar li {
+		display: inline-block;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.nav-bar a {
+		display: block;
+		padding: 10px;
+		color: lightskyblue;
+		text-decoration: none;
+	}
+
+	.topnav-left {
+		flex-grow: 1;
+	}
+
+	.topnav-right {
+		text-align: right;
+	}
+
+	.main {
+		margin-top: 5px;
+	}
+
+	.carousel {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(to right, #FFC0CB, #FF69B4);
+		padding: 20px;
+		border-radius: 5px;
+	}
+
+	.carousel h2 {
+		text-align: center;
+		color: #fff;
+	}
+
+	.message-box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 20px;
+	}
+
+	.message-box p {
+		text-align: left;
+		margin-right: 20px;
+	}
+
+	.message-box .card {
+		width: 150px;
+		height: 150px;
+		border-radius: 5px;
+		background-color: #ccc;
+	}
+</style>
+<!-- Responsive CSS -->
+
+<!-- Custom CSS -->
+
+<!-- Modernizr -->
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+	<div class="nav-bar">
+		<div class="topnav-left">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="{% url 'core:gallery' %}">Gallery</a></li>
+			</ul>
+		</div>
+		<div class="'topnav-right">
+			<ul>
+				<li><a href="">Service</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<section id="home" class="main">
+		<div class="carousel">
+			<h2>Welcome to my blog</h2>
+			<p></p>
+		</div>
+	</section>
+
+	<div id="about" class="section wb">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="message-box">
+						<h2> Rocky Rosato </h2>
+						<p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus
+							faucibus
+							bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et
+							magnis
+							dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit
+							amet
+							libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue
+							justo. Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed
+							tellus
+							faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+							penatibus et
+							magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas
+							libero,
+							eu bibendum risus. Phasellus et congue justo.</p>
+
+						<div class="col-md-6">
+							<div class="card">
+								<img src="" alt="image goes here" class="img-fluid img-rounded">
+							</div><!-- end media -->
+						</div><!-- end col -->
+					</div><!-- end row -->
+				</div><!-- end container -->
+			</div><!-- end section -->
+
+			<div class="copyrights">
+				<div class="container">
+					<div class="footer-distributed">
+						<div class="footer-left">
+							<p class="footer-links">
+								<a href="#">Home</a>
+								<a href="#">Blog</a>
+								<a href="#">Faq</a>
+								<a href="#">Contact</a>
+							</p>
+							<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Blog</a>
+								Design
+								By :
+								<a href="https://html.design/">Nave</a>
+							</p>
+						</div>
+					</div>
+				</div><!-- end container -->
+			</div><!-- end copyrights -->
+
+			<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-camera" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+</body>
+
+</html>
